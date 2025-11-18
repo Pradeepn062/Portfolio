@@ -1,4 +1,4 @@
-import "../styles/hero.css";
+import "../styles/Home.css";
 import profile from '../../public/profile.jpg';
 
 function Home() {

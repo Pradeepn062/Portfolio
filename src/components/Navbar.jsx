@@ -1,4 +1,4 @@
-function Navbar({ open, setOpen, theme, setTheme }) {
+function NavBar({ open, setOpen, theme, setTheme }) {
   return (
     <>
       <div className="hamburger" onClick={() => setOpen(!open)}>
@@ -15,4 +15,4 @@ function Navbar({ open, setOpen, theme, setTheme }) {
   );
 }
 
-export default Navbar;
+export default NavBar;

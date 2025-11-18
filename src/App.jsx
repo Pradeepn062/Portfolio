@@ -3,14 +3,14 @@ import { useState, useEffect } from "react";
 import "./styles/global.css";
 import "./styles/sidebar.css";
 
-import Navbar from "../src/components/NavBar";
-import Sidebar from "../src/components/Sidebar";
+import Navbar from "./components/NavBar";
+import Sidebar from "./components/Sidebar";
 
-import Home from "../src/Pages/Home";
-import About from "../src/Pages/About";
-import Skills from "../src/Pages/Skills";
-import Projects from "../src/Pages/Projects";
-import Contact from "../src/Pages/Contact";
+import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Skills from "./Pages/Skills";
+import Projects from "./Pages/Projects";
+import Contact from "./Pages/Contact";
 
 function App() {
   const [open, setOpen] = useState(false);
