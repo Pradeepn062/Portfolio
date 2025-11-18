@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./styles/global.css";
 import "./styles/sidebar.css";
 
-import NavBar from "./components/NavBar";
+import NavBarr from "./components/NavBarr";
 import Sidebar from "./components/Sidebar";
 
 import Home from "./Pages/Home";
@@ -22,7 +22,7 @@ function App() {
 
   return (
     <>
-      <NavBar open={open} setOpen={setOpen} theme={theme} setTheme={setTheme} />
+      <NavBarr open={open} setOpen={setOpen} theme={theme} setTheme={setTheme} />
       <Sidebar open={open} setOpen={setOpen} />
 
       <Home />
