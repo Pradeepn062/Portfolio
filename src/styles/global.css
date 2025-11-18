@@ -1,0 +1,39 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body.light {
+  background: #ffffff;
+  color: #222;
+}
+
+body.dark {
+  background: #121212;
+  color: #eaeaea;
+}
+
+section {
+  padding: 100px 40px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 1.1rem;
+  max-width: 1300px;
+}
+
+a{
+    text-decoration: none;
+    color:yellowgreen;
+}
